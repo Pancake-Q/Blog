@@ -2,7 +2,7 @@
 ###
  # @Author       : Pancake
  # @Date         : 2022-04-05 19:48:01
- # @LastEditTime : 2022-04-05 21:48:28
+ # @LastEditTime : 2022-04-07 23:38:53
  # @LastEditors  : Pancake
  # @FilePath     : \Pancake-Q\deploy.sh
  # @Description  : 一键部署
@@ -22,6 +22,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/Pancake-Q/Pancake-Q.github.io.git main
+git push -f git@github.com:Pancake-Q/Pancake-Q.github.io.git main
 
 cd -
