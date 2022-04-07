@@ -1,0 +1,18 @@
+{
+  "name": "pancake_q",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:hot": "vuepress dev docs --temp .temp",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.11"
+  }
+}

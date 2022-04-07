@@ -1,0 +1,1 @@
+export { default } from "E:\\oktest\\Pancake-Q\\node_modules\\@vuepress-reco\\vuepress-plugin-pagation\\bin\\enhanceAppFile.js"
