@@ -1,7 +1,7 @@
 /**
  * @Author       : Pancake
  * @Date         : 2022-04-05 19:20:15
- * @LastEditTime : 2022-04-09 20:41:26
+ * @LastEditTime : 2022-04-10 02:13:40
  * @LastEditors  : Pancake
  * @FilePath     : \Pancake-Q\docs\.vuepress\config.js
  * @Description  : config 文件
@@ -62,4 +62,5 @@ module.exports = {
     //   clientSecret: 'c7d4884b4b19ef95c9b4ea891fb9e546dc295c31',
     // },
   },
+	
 };
