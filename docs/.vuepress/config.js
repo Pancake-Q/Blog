@@ -1,7 +1,7 @@
 /**
  * @Author       : Pancake
  * @Date         : 2022-04-05 19:20:15
- * @LastEditTime : 2022-04-09 20:03:58
+ * @LastEditTime : 2022-04-09 20:41:26
  * @LastEditors  : Pancake
  * @FilePath     : \Pancake-Q\docs\.vuepress\config.js
  * @Description  : config 文件
@@ -9,6 +9,7 @@
 module.exports = {
 	title: 'Pancake-Q',
 	description: 'Pancake-Q 知识沉淀',
+	// theme: 'reco',
 	theme: 'reco',
 	locales: {
 		'/': {
