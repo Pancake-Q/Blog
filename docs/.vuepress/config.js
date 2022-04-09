@@ -1,12 +1,15 @@
 /**
  * @Author       : Pancake
  * @Date         : 2022-04-05 19:20:15
- * @LastEditTime : 2022-04-08 00:28:51
+ * @LastEditTime : 2022-04-09 20:03:58
  * @LastEditors  : Pancake
  * @FilePath     : \Pancake-Q\docs\.vuepress\config.js
  * @Description  : config 文件
  */
 module.exports = {
+	title: 'Pancake-Q',
+	description: 'Pancake-Q 知识沉淀',
+	theme: 'reco',
 	locales: {
 		'/': {
 			lang: 'zh-CN',
@@ -25,12 +28,16 @@ module.exports = {
 			`
 		]
 	],
-	title: 'Pancake-Q',
-	description: 'Pancake-Q 知识沉淀',
-	theme: 'reco',
 	themeConfig: {
 		subSidebar: 'auto',
 		lastUpdated: '上次更新',
+		vssueConfig: {
+      platform: 'github',
+      owner: 'Pancake-Q',
+      repo: 'Pancake-Q.github.io',
+      clientId: 'ca40fc8bfef71c29d4f9',
+      clientSecret: 'c7d4884b4b19ef95c9b4ea891fb9e546dc295c31'
+   },
 		nav: [
 			{ text: '首页', link: '/' },
 			{
@@ -45,4 +52,13 @@ module.exports = {
 			},
 		],
 	},
+	plugins: {
+    // '@vssue/vuepress-plugin-vssue': {
+    //   platform: 'github',
+    //   owner: 'Pancake-Q',
+    //   repo: 'Pancake-Q.github.io',
+    //   clientId: 'ca40fc8bfef71c29d4f9',
+    //   clientSecret: 'c7d4884b4b19ef95c9b4ea891fb9e546dc295c31',
+    // },
+  },
 };

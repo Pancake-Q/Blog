@@ -5,14 +5,40 @@ export const siteData = {
   "title": "Pancake-Q",
   "description": "Pancake-Q 知识沉淀",
   "base": "/",
-  "headTags": [],
+  "headTags": [
+    [
+      "script",
+      {},
+      "\n\t\t\tvar _hmt = _hmt || [];\n\t\t\t(function() {\n  \t\tvar hm = document.createElement(\"script\");\n\t\t\thm.src = \"https://hm.baidu.com/hm.js?01ad287e8bbb67b8be0849586a15ac4b\";\n  \t\tvar s = document.getElementsByTagName(\"script\")[0]; \n  \t\ts.parentNode.insertBefore(hm, s);\n\t\t\t})();       \n\t\t\t"
+    ]
+  ],
   "pages": [
     {
       "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-177215ce",
-      "path": "/"
+      "path": "/",
+      "lastUpdated": "2022/4/7 下午5:58:46",
+      "lastUpdatedTimestamp": 1649325526000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/config.html",
+      "relativePath": "config.md",
+      "key": "v-66e6f80a",
+      "path": "/config.html",
+      "lastUpdated": "2022/4/7 下午5:58:46",
+      "lastUpdatedTimestamp": 1649325526000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-3b26eb2c",
+      "path": "/guide/",
+      "lastUpdated": "2022/4/7 下午5:58:46",
+      "lastUpdatedTimestamp": 1649325526000
     },
     {
       "frontmatter": {
@@ -44,6 +70,14 @@ export const siteData = {
   ],
   "themeConfig": {
     "subSidebar": "auto",
+    "lastUpdated": "上次更新",
+    "vssueConfig": {
+      "platform": "github",
+      "owner": "Pancake-Q",
+      "repo": "Pancake-Q.github.io",
+      "clientId": "ca40fc8bfef71c29d4f9",
+      "clientSecret": "c7d4884b4b19ef95c9b4ea891fb9e546dc295c31"
+    },
     "nav": [
       {
         "text": "首页",
